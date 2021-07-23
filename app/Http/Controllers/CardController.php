@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\Card;
 
 class CardController extends Controller
@@ -13,5 +12,12 @@ class CardController extends Controller
         $cards = Card::all();
 
         return view('index', compact('cards'));
+    }
+
+    public function show($id)
+    {
+        $card = Card::find($id);
+
+        return view('card.show', compact('card'));
     }
 }

@@ -14,8 +14,5 @@ use App\Http\Controllers\CardController;
 |
 */
 
-/* Route::get('/', function () { */
-/*     return view('index'); */
-/* }); */
-
 Route::get('/', [CardController::class, 'index']);
+Route::get('card/{id}', [CardController::class, 'show']);
