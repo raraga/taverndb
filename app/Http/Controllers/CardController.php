@@ -10,14 +10,18 @@ class CardController extends Controller
     {
         /* Grab all the cards from the database */
         $cards = Card::all();
-
         return view('index', compact('cards'));
     }
 
     public function show($id)
     {
         $card = Card::find($id);
-
         return view('card.show', compact('card'));
+    }
+
+    public function rank($rank)
+    {
+        $cards = Card::where('rank','=', $rank)->get();
+        return view('index', compact('cards'));
     }
 }

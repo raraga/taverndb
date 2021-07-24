@@ -26,7 +26,7 @@ class CardFactory extends Factory
         return [
             'name' => $this->faker->name(),
             'rank' => $this->faker->numberBetween(1, 6),
-            'tribe' => Str::random(6),
+            'tribe' => $this->faker->randomElement([ 'None','All', 'Beast', 'Demon', 'Dragon', 'Elemental', 'Mech', 'Murloc', 'Pirate','Quillboar' ]),
             'health' => $this->faker->numberBetween(1,12),
             'attack' => $this->faker->numberBetween(1,9),
             'amtAvailable' => '100'

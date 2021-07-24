@@ -15,4 +15,5 @@ use App\Http\Controllers\CardController;
 */
 
 Route::get('/', [CardController::class, 'index']);
+Route::get('rank/{rank}', [CardController::class, 'rank']);
 Route::get('card/{id}', [CardController::class, 'show']);
