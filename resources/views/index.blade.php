@@ -8,9 +8,9 @@
         <title>TavernDB</title>
     </head>
     <body>
-        <x-navigation />
+        <x-navigation :ranks="$ranks" />
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
                 @foreach ($cards as $card)
                     <x-card :card="$card" />
                 @endforeach

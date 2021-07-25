@@ -10,7 +10,11 @@ class CardController extends Controller
     {
         /* Grab all the cards from the database */
         $cards = Card::all();
-        return view('index', compact('cards'));
+
+        /* Get all possible ranks a card can be and use for navigation filter */
+        $ranks = Card::select('rank')->distinct()->orderBy('rank', 'asc')->get();
+
+        return view('index', compact('cards'), compact('ranks'));
     }
 
     public function show($id)
@@ -22,6 +26,10 @@ class CardController extends Controller
     public function rank($rank)
     {
         $cards = Card::where('rank','=', $rank)->get();
-        return view('index', compact('cards'));
+
+        /* Sad face this isn't DRY */
+        $ranks = Card::select('rank')->distinct()->orderBy('rank', 'asc')->get();
+
+        return view('index', compact('cards'), compact('ranks'));
     }
 }

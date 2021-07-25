@@ -11,9 +11,12 @@ class Navigation extends Component
      *
      * @return void
      */
-    public function __construct()
+    /* public $ranks; */
+
+    public $ranks;
+    public function __construct($ranks)
     {
-        //
+        $this->ranks = $ranks;
     }
 
     /**

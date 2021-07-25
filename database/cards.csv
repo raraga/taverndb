@@ -1,0 +1,145 @@
+amtAvailable;tribe;attack;health;rank;name
+16;none;2;2;1;Acolyte of C'Thun
+16;beast;1;1;1;Alleycat
+16;pirate;2;2;1;Deck Swabbie
+16;dragon;2;3;1;Dragonspawn Lieutenant
+16;demon;2;1;1;Fiendish Servant
+16;mech;1;2;1;Micro Machine
+16;mech;1;2;1;Micro Mummy
+16;murloc;2;1;1;Murloc Tidecaller
+16;murloc;1;2;1;Murloc Tidehunter
+16;quillboar;3;1;1;Razorfen Geomancer
+16;dragon;1;2;1;Red Whelp
+16;elemental;1;4;1;Refreshing Anomaly
+16;murloc;2;3;1;Rockpool Hunter
+16;pirate;2;1;1;Scallywag
+16;beast;2;2;1;Scavenging Hyena
+16;elemental;2;2;1;Sellemental
+16;quillboar;1;2;1;Sun-Bacon Relaxer
+16;demon;2;4;1;Vulgar Homunculus
+16;none;1;3;1;Wrath Weaver
+15;pirate;3;3;2;Freedealing Gambler
+15;dragon;2;4;2;Glyph Guardian
+15;mech;2;3;2;Harvest Golem
+15;demon;3;3;2;Imprisoner
+15;mech;2;2;2;Kaboom Bot
+15;beast;1;1;2;Kindly Grandmother
+15;none;2;2;2;Menagerie Mug
+15;mech;3;3;2;Metaltooth Leaper
+15;elemental;2;4;2;Molten Rock
+15;murloc;3;3;2;Murloc Warleader
+15;demon;2;4;2;Nathrezim Overseer
+15;murloc;2;4;2;Old Murk-Eye
+15;none;3;4;2;Pack Leader
+15;elemental;3;2;2;Party Elemental
+15;none;2;3;2;Prophet of the Boar
+15;beast;3;2;2;Rabid Saurolisk
+15;quillboar;1;4;2;Roadboar
+15;none;2;1;2;Selfless Hero
+15;pirate;3;3;2;Southsea Captain
+15;none;2;2;2;Spawn of N'Zoth
+15;dragon;3;3;2;Steward of Time
+15;none;2;3;2;Tormented Ritualist
+15;quillboar;4;3;2;Tough Tusk
+15;none;1;3;2;Unstable Ghoul
+15;none;1;3;2;Waxrider Togwaggle
+15;pirate;2;6;2;Yo-Ho-Ogre
+13;elemental;3;3;3;Arcane Assistant
+13;none;4;5;3;Arm of the Empire
+13;quillboar;1;4;3;Bannerboar
+13;pirate;4;3;3;Bloodsail Cannoneer
+13;quillboar;3;3;3;Bristleback Brute
+13;dragon;2;1;3;Bronze Warden
+13;murloc;2;3;3;Coldlight Seer
+13;elemental;4;1;3;Crackling Cyclone
+13;none;5;4;3;Crystalweaver
+13;mech;3;2;3;Deflect-o-Bot
+13;murloc;4;4;3;Felfin Navigator
+13;dragon;4;4;3;Hangry Dragon
+13;none;4;3;3;Houndmaster
+13;demon;2;4;3;Imp Gang Boss
+13;beast;3;3;3;Infested Wolf
+13;mech;2;2;3;Iron Sensei
+13;none;2;2;3;Khadgar
+13;beast;5;3;3;Monstrous Macaw
+13;quillboar;3;3;3;Necrolyte
+13;beast;2;2;3;Rat Pack
+13;mech;3;1;3;Replicating Menace
+13;pirate;4;4;3;Salty Looter
+13;mech;2;5;3;Screwjank Clunker
+13;demon;3;3;3;Soul Devourer
+13;none;3;5;3;Soul Juggler
+13;pirate;4;3;3;Southsea Strongarm
+13;elemental;4;4;3;Stasis Elemental
+13;quillboar;4;3;3;Thorncaller
+13;dragon;4;4;3;Twilight Emissary
+13;none;3;3;3;Warden of Old
+11;mech;2;4;4;Annoy-o-Module
+11;demon;6;6;4;Bigfernal
+11;none;1;7;4;Bolvar, Fireblood
+11;quillboar;3;7;4;Bonker
+11;beast;2;4;4;Cave Hydra
+11;none;4;4;4;Champion of Y'Shaarj
+11;dragon;5;5;4;Cobalt Scalebane
+11;none;2;3;4;Defender of Argus
+11;dragon;3;6;4;Drakonid Enforcer
+11;quillboar;3;4;4;Dynamic Duo
+11;pirate;2;2;4;Goldgrubber
+11;quillboar;3;6;4;Groundshaker
+11;dragon;6;6;4;Herald of Flame
+11;demon;3;5;4;Hexruin Marauder
+11;mech;1;5;4;Junkbot
+11;none;6;3;4;Majordomo Executus
+11;mech;0;5;4;Mechano-Egg
+11;none;3;3;4;Menagerie Jug
+11;murloc;3;2;4;Primalfin Lookout
+11;none;3;5;4;Qiraji Harbinger
+11;demon;6;4;4;Ring Matron
+11;pirate;4;5;4;Ripsnarl Captain
+11;beast;6;5;4;Savannah Highmane
+11;mech;2;6;4;Security Rover
+11;murloc;1;2;4;Toxfin
+11;none;4;5;4;Virmen Sensei
+11;elemental;7;4;4;Wildfire Elemental
+9;beast;6;6;5;Agamaggan, the Great Boar
+9;quillboar;3;6;5;Aggem Thorncurse
+9;demon;3;1;5;Annihilan Battlemaster
+9;none;1;7;5;Baron Rivendare
+9;none;2;4;5;Brann Bronzebeard
+9;quillboar;5;8;5;Bristleback Knight
+9;pirate;6;6;5;Cap'n Hoggarr
+9;none;1;1;5;Deadly Spore
+9;none;3;3;5;Faceless Taverngoer
+9;beast;7;7;5;Ironhide Direhorn
+9;none;3;6;5;Kangor's Apprentice
+9;murloc;6;3;5;King Bagurgle
+9;none;2;2;5;Lightfang Enforcer
+9;demon;9;7;5;Mal'Ganis
+9;beast;5;5;5;Mama Bear
+9;dragon;5;5;5;Murozond
+9;none;4;4;5;Mythrax the Unraveler
+9;pirate;8;5;5;Nat Pagle, Extreme Angler
+9;none;5;5;5;Nomi, Kitchen Nightmare
+9;dragon;4;6;5;Razorgore, the Untamed
+9;pirate;6;7;5;Seabreaker Goliath
+9;mech;5;7;5;Sneed's Old Shredder
+9;none;2;3;5;Strongshell Scavenger
+9;elemental;4;4;5;Tavern Tempest
+9;demon;3;9;5;Voidlord
+7;all;6;6;6;Amalgadon
+7;none;4;4;6;Archdruid Hamuul
+7;quillboar;9;6;6;Captain Flat Tusk
+7;quillboar;4;4;6;Charlga
+7;pirate;6;7;6;Dread Admiral Eliza
+7;mech;6;9;6;Foe Reaper 4000
+7;elemental;4;5;6;Gentle Djinni
+7;beast;7;7;6;Ghastcoiler
+7;beast;4;4;6;Goldrinn, the Great Wolf
+7;demon;6;10;6;Imp Mama
+7;dragon;4;12;6;Kalecgos, Arcane Aspect
+7;elemental;8;8;6;Lieutenant Garr
+7;elemental;6;6;6;Lil' Rag
+7;beast;2;8;6;Maexxna
+7;none;7;4;6;Nadina the Red
+7;none;6;4;6;The Tide Razor
+7;none;7;10;6;Zapp Slywick

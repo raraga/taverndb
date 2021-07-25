@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">TavernDB</a>
+    <a class="navbar-brand" href="#">🍻</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -9,24 +9,11 @@
         <li class="nav-item">
           <a class="nav-link" href="/">All</a>
         </li>
+        @foreach ($ranks as $r)
         <li class="nav-item">
-          <a class="nav-link" href="/rank/1">1</a>
+            <a class="nav-link" href="/rank/{{ $r->rank }}">{{ $r->rank }}</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/rank/2">2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/rank/3">3</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/rank/4">4</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/rank/5">5</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/rank/6">6</a>
-        </li>
+        @endforeach
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
